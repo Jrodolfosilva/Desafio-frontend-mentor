@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #F2F2F2;
+    font-size: 1.8rem;
+}
+a{
+    color: black;
+}
+/*cabeçalho*/
+.conteiner_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+.secao_menu,.menu, .menu_registro{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    font-size: 1.6rem;
+}
+
+/****************/
+
+.item_menu img{
+    margin-left: 0.5rem;
+}
+.item_menu.features{
+    width: 9rem;
+}
+ .item_menu.company{
+    width:9rem;
+}
+.item_menu {
+    display: block;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*botão registrar*/
+.item_menu.btn > button{
+    width: 8rem;
+    height: 3.2rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+.box_mobile{
+    display: none;
+}
+
+.conteudo{
+    position: absolute;
+    top:10%;
+}
+.conteudo.features{
+    left: 7%;
+}
+.conteudo.features ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 13%;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 12rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    
+}
+.conteudo.features ul li img{
+    margin-right: 0.5rem;
+}
+.conteudo.company{
+    left: 18.5%;
+}
+.conteudo.company ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14% 16%;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1064px) {
+    
+/*menu para o mobile*/
+.box_mobile.ativo{
+    display: block;
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+    right: 0%;
+    padding: 1%;
+    background-color: #e4e4e4;
+    font-size: 2.5rem;
+}
+.close_mobile{
+    position: absolute;
+    top:0%;
+    right: 1%;;
+
+}
+.menu_mobile{
+    margin:6vh 5rem
+}
+.menu_mobile > li{
+    margin-top: 2rem;
+}
+
+
+.menu_registro_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_registro_mobile li button{
+    width: 25rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border:1px solid black;
+    margin-top: 2rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.menu, .menu_registro{
+    display: none;
+}*/
