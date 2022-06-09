@@ -33,12 +33,12 @@ company.addEventListener('click', ()=>{
 })
 menuBurguer.addEventListener('click',()=>{
     menuMobile.classList.add('ativo')
-    main.classList.add('blur')
+    main.classList.add('js')
 })
 
 closeBurguer.addEventListener('click',()=>{
     menuMobile.classList.remove('ativo')
-    main.classList.remove('blur')
+    main.classList.remove('js')
 })
 
 
