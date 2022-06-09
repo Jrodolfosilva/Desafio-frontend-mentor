@@ -296,6 +296,7 @@ button, li{
 @media (max-width:720px) {
     body{
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     .conteiner_principal{
         margin:0%;
@@ -326,6 +327,7 @@ button, li{
     
     body{
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     .box_make h1{
         font-size: 4rem;
@@ -336,7 +338,7 @@ button, li{
     .box_make_img{
         width: 100%;
         margin: 0px;
-        background-color: yellow;
+      
     }
     .box_make_img img{
         width: 3rem;
