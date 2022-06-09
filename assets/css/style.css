@@ -173,7 +173,7 @@ button, li{
   
     body.js{
         overflow-x: hidden;
-        overflow-y:hidden;      
+        overflow-y:hidden;     
     }
     header{
         margin-top:2vh;
@@ -278,6 +278,22 @@ button, li{
     .seta_company_fly.rote{
         transform: rotate(180deg);
     }
+    .conteiner_principal{
+        margin: 0% 2rem;
+    }
+    .box_make{
+        width: 100%;
+        align-items: center;
+    }
+    .img_hero{
+        width: 100%;
+    }
+    .box_make_img{
+        padding: 0px;
+        gap:14rem;
+        margin-top:1vh;
+    }  
+    
 }
 @media (max-width:720px) {
     .conteiner_principal{
@@ -286,20 +302,21 @@ button, li{
     }  
     
 
-    .conteiner_principal h1{
+    .box_make h1{
         margin-top: 0px;
         font-size: 6rem;
         line-height: 0rem;
-        margin-bottom: 5vh;/*420*/
+        margin-bottom: 5vh;
     }
     .box_make{
         width: 100vw;
         align-items: center;
     }   
+   
     .box_make_img{
         padding: 0px;
         gap:3.5rem;
-        margin-top: 10vh;
+        margin-top:1vh;
     }  
     .img_hero{
         width: 100%;
