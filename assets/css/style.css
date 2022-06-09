@@ -288,7 +288,7 @@ button, li{
     }
     .box_make_img{
         padding: 0px;
-        gap:14rem;
+        gap:12vw;
         margin-top:1vh;
     }  
     
@@ -330,7 +330,6 @@ button, li{
     .box_make_img{
         width: 100%;
         margin: 0px;
-        gap:1rem;
         background-color: yellow;
     }
     .box_make_img img{
