@@ -294,10 +294,7 @@ button, li{
     
 }
 @media (max-width:720px) {
-    body{
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
+   
     .conteiner_principal{
         margin:0%;
         gap:0vh;
