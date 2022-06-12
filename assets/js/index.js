@@ -1,3 +1,5 @@
+function showMenu(){
+
 const features = document.querySelector('.item_menu.features,.item_menu_features');
 const featuresBox = document.querySelector('.conteudo.features');
 
@@ -40,24 +42,21 @@ closeBurguer.addEventListener('click',()=>{
     menuMobile.classList.remove('ativo')
     main.classList.remove('js')
 })
-
-
-
-function mobileCompany(){
-    const companyFly = document.querySelector('.conteudo_company_fly')
-    companyFly.classList.toggle('ativo')
-    
-    const setaFeatures = document.querySelector('.seta_features_fly')
-    const setaCompany = document.querySelector('.seta_company_fly')
-    setaCompany.classList.toggle('rote');
-   
 }
-function mobileFeatures(){
-    const featuresyFly = document.querySelector('.conteudo_features_fly')
-    featuresyFly.classList.toggle('ativo')
+showMenu()
 
-    const setaFeatures = document.querySelector('.seta_features_fly')
-    const setaCompany = document.querySelector('.seta_company_fly')
+const companyFly = document.querySelector('.conteudo_company_fly')
+const setaCompany = document.querySelector('.seta_company_fly')
+const featuresyFly = document.querySelector('.conteudo_features_fly')
+const setaFeatures = document.querySelector('.seta_features_fly')
+function mobileFeatures(){
+    featuresyFly.classList.toggle('ativo')
     setaFeatures.classList.toggle('rote');
+    companyFly.classList.remove('ativo')
     
+}
+function mobileCompany(){
+    companyFly.classList.toggle('ativo')
+    setaCompany.classList.toggle('rote');
+    featuresyFly.classList.remove('ativo')
 }
